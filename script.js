@@ -6,7 +6,7 @@ function updateTime() {
         second: '2-digit',
         hour12: false,
     };
-    document.getElementById('time').textContent = now.toLocaleTimeString('en-US', options);
+document.getElementById('time').textContent = now.toLocaleTimeString('en-US', options);
 }
 document.getElementById('colorButton').addEventListener('click', function () {
     this.classList.toggle('clicked');
